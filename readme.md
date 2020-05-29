@@ -12,7 +12,7 @@ mysql 导入 /database/products.sql
 #### 推送产品表的数据到 Es
 | 命令  |  说明 | 
 | ---  | ---   |
-| `php artisan es:pushData --update-mapping --change-alias` ` | 推数据到es |
+| php artisan es:pushData --update-mapping --change-alias | 推数据到es |
 
 #### 关于Es查询使用
 
